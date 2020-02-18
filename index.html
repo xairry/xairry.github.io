@@ -151,13 +151,13 @@
             
         </h1>
         <div class="content">
-            <h1 id="刷机步骤："><a href="#刷机步骤：" class="headerlink" title="刷机步骤："></a>刷机步骤：</h1><h3 id="1-刷开发者miui作为底包"><a href="#1-刷开发者miui作为底包" class="headerlink" title="1.刷开发者miui作为底包"></a>1.刷开发者miui作为底包</h3><p>这是mi note virgo全球版<br>版本7.11.16，链接: <a href="https://pan.baidu.com/s/1fniMOZQC8BnXyhSxYtTQiA" target="_blank" rel="noopener">https://pan.baidu.com/s/1fniMOZQC8BnXyhSxYtTQiA</a> 提取码: 5s7f<br>下载下来的tarz包解压缩<br>用最新的miflash刷就行<br>线刷出现 ==<em>remote: partition table doesn’t exist</em>== 的话<br>解压的包中 ==<em>flash_all.bat</em>== 的第一行加入<br><code>fastboot %* flash partition &quot;%~dp0images\gpt_both0.bin&quot; || @echo &quot;Flash partition&quot; &amp;&amp; exit /B 1</code></p>
+            <h1 id="刷机步骤："><a href="#刷机步骤：" class="headerlink" title="刷机步骤："></a>刷机步骤：</h1><h3 id="1-刷开发者miui作为底包"><a href="#1-刷开发者miui作为底包" class="headerlink" title="1.刷开发者miui作为底包"></a>1.刷开发者miui作为底包</h3><p>这是mi note virgo全球版<br>版本7.11.16，链接: <a href="https://pan.baidu.com/s/1fniMOZQC8BnXyhSxYtTQiA" target="_blank" rel="noopener">https://pan.baidu.com/s/1fniMOZQC8BnXyhSxYtTQiA</a> 提取码: 5s7f<br>下载下来的tarz包解压缩<br>用最新的miflash刷就行<br>线刷出现 <strong><em>remote: partition table doesn’t exist</em></strong> 的话<br>解压的包中 <strong><em>flash_all.bat</em></strong> 的第一行加入<br><code>fastboot %* flash partition &quot;%~dp0images\gpt_both0.bin&quot; || @echo &quot;Flash partition&quot; &amp;&amp; exit /B 1</code></p>
 <hr>
 <h3 id="2-解锁BL"><a href="#2-解锁BL" class="headerlink" title="2.解锁BL"></a>2.解锁BL</h3><p>fastboot模式连接电脑用低版本2.3的unlock工具，链接：链接: <a href="https://pan.baidu.com/s/1Ben0FyiSNTMThRfd8Nl4uQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1Ben0FyiSNTMThRfd8Nl4uQ</a> 提取码: 61ng<br>官网最新版本到99% 会识别不到机型</p>
 <hr>
 <h3 id="3-刷入twrp的recovery"><a href="#3-刷入twrp的recovery" class="headerlink" title="3.刷入twrp的recovery"></a>3.刷入twrp的recovery</h3><p>安卓工具包：  链接: <a href="https://pan.baidu.com/s/1FsxSIl7O_TDvaxIkfpGWyg" target="_blank" rel="noopener">https://pan.baidu.com/s/1FsxSIl7O_TDvaxIkfpGWyg</a> 提取码: 434t<br>下载twrp.iso： 链接: <a href="https://pan.baidu.com/s/1H0951EYrjdwxxXuwpRGGYg" target="_blank" rel="noopener">https://pan.baidu.com/s/1H0951EYrjdwxxXuwpRGGYg</a> 提取码: iqg4<br>放入解压后的安卓工具包内，cmd定位到该文件夹，手机进fastboot连接电脑，输入<br><code>fastboot flash recovery recovery.img</code><br><del>recovery.img</del> 替换为我们下载的twrp的文件名<br>刷完重启  </p>
 <hr>
-<h3 id="4-三清刷包"><a href="#4-三清刷包" class="headerlink" title="4.三清刷包"></a>4.三清刷包</h3><p>++system不要清++<br>包的链接：<a href="https://download.mokeedev.com/virgo.html" target="_blank" rel="noopener">https://download.mokeedev.com/virgo.html</a><br>把包放入mtp模式的手机根目录<br>关机<br>长按 ==<em>音量上+开机键</em>== 进入rec<br>选择清除，使用默认清除<br>返回，选择刷入，选择我们拖进手机的魔趣包，确认，刷完重启，ok</p>
+<h3 id="4-三清刷包"><a href="#4-三清刷包" class="headerlink" title="4.三清刷包"></a>4.三清刷包</h3><p>++system不要清++<br>包的链接：<a href="https://download.mokeedev.com/virgo.html" target="_blank" rel="noopener">https://download.mokeedev.com/virgo.html</a><br>把包放入mtp模式的手机根目录<br>关机<br>长按 <strong><em>音量上+开机键</em></strong> 进入rec<br>选择清除，使用默认清除<br>返回，选择刷入，选择我们拖进手机的魔趣包，确认，刷完重启，ok</p>
 
         </div>
         
