@@ -476,7 +476,9 @@ figure.highlight .gutter {
   text-align: right;
 }
 figure.highlight .tag,
-figure.highlight .title,
+figure.highlight .title {
+  color: #EB6D39;
+}
 figure.highlight .number,
 figure.highlight .section {
   display: inherit;
